@@ -1,0 +1,23 @@
+{
+  "name": "note-taker-express",
+  "version": "1.0.0",
+  "description": "Update, save and delete notes ",
+  "main": "server.js",
+  "scripts": {
+    "test": "none",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenstuder/note-taker-express.git"
+  },
+  "author": "Stephen Studer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephenstuder/note-taker-express/issues"
+  },
+  "homepage": "https://github.com/stephenstuder/note-taker-express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
