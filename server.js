@@ -12,7 +12,6 @@ app.get("/notes", (req, res) => {
   res.sendFile(__dirname + "/public/notes.html")
 });
 
-
 app.get("/api/notes", (req, res) => {
   console.log(`/api/notes called`);
   res.json(notes);
@@ -21,11 +20,8 @@ app.get("/api/notes", (req, res) => {
 app.post("/api/notes", (req, res) => {
   console.log(`POST /api/notes called`);
   const newNote = req.body;
-  
   console.log(newNote);
-  
   notes.push(newNote);
-  
   res.json(newNote);
 });
 
