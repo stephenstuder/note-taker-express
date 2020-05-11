@@ -30,7 +30,7 @@ app.get("/*", (req, res) => {
 });
 
 app.delete("/api/notes/:id", (req, res) => {
-  
+  //todo, use id to find a note and delete it. 
 });
 
 
