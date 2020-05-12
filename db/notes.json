@@ -1,5 +1,7 @@
-[{
-  "title":"CLICK ME!!!",
-  "text":"Welcome to your notes area! Select the edit icon above to create a new note!",
-  "id":"1234fsd5"
-}]
+[
+  {
+    "title": "CLICK ME!!!",
+    "text": "Welcome to your notes area! Select the edit icon above to create a new note!",
+    "id": "1234fsd5"
+  }
+]
