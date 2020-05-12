@@ -71,6 +71,8 @@ let handleNoteDelete = (event) => {
     .parent(".list-group-item")
     .data();
 
+    console.log(note);
+
   if (activeNote.id === note.id) {
     activeNote = {};
   }
@@ -84,6 +86,7 @@ let handleNoteDelete = (event) => {
 // Sets the activeNote and displays it
 let handleNoteView = () => {
   activeNote = $(this).data();
+  console.log(activeNote);
   renderActiveNote();
 };
 
