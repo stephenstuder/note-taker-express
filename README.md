@@ -4,7 +4,7 @@
 https://express-note-taking.herokuapp.com/
 
 ## Description
-Note taking application with an Express backend deployed with heroku
+Note taking application with an Express backend deployed with Heroku
 
 ## About this Project
 This project utilizes Node.js, Express routing, Bootstrap and Heroku
